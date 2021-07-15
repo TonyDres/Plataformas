@@ -1,0 +1,163 @@
+/*header*/
+.site-header.inicio{
+    background: url(../img/fondo.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    min-height: 55rem;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    line-height: 2;
+}
+
+/* Global */
+.contenedor{
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Utilidades*/
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenido-header h1 {
+    padding-bottom: 2.5rem;
+    max-width: 55rem;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+/* Navegacion */
+.navegacion a {
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 2rem;
+    font-weight: bold;
+}
+
+/* Iconos */
+.encabezado-plataforma{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.iconos {
+    display: flex;
+}
+
+.icono{
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+}
+
+.icono h3 {
+    text-transform: uppercase;
+}
+
+/*Botones*/
+.boton{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+}
+
+.boton-celeste{
+    background-color: aqua;
+}
+
+.boton-verde{
+    background-color: lightgreen;
+}
+
+/*Centrar texto*/
+.centrar{
+    text-align: center;
+}
+
+/*Articulos*/
+.agregado{
+    justify-content: space-between;
+    display: flex;
+}
+
+.agregado h3, .agregado p{
+    margin: 0;
+}
+
+.contenedor-articulo{
+    flex-basis: calc(25% - 1rem);
+    border: 1px solid gray;
+    background-color: aqua;
+}
+
+.contenido-articulo{
+    padding: 2rem;
+}
+
+/*Sugerencias*/
+.sugerencia{
+    background-image: url(../img/sugerencia2.png);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+
+.sugerencia h2, .sugerencia p {
+    color: white;
+}
+
+/*Footer*/
+.site-footer {
+    background-color: black;
+    margin: 0;
+}
+
+.site-footer p{
+    color: white;
+}
+
+.contenedor-footer{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-footer a{
+    text-decoration: none;
+    color: white;
+    margin-right: 2rem;
+    font-weight: bold;
+}
+
+.copy{
+    margin: 0;
+}
